@@ -1,10 +1,10 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-    /* Your site config here */
-    plugins: ["gatsby-plugin-postcss"],
+    siteMetadata: {
+        title: "Welcome to my portfolio page :)",
+        titleTemplate: "Faqih - %s",
+        description: "I do a lot of stuff and still learning",
+        url: "https://mupinnn.github.io",
+        image: "/src/images/Me.png",
+    },
+    plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-postcss"],
 };
