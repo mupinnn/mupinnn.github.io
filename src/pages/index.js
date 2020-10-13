@@ -1,11 +1,12 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 export default function Home() {
     return (
-        <div>
+        <Layout>
             <button type="button" class="nes-btn is-primary">
                 Primary
             </button>
-        </div>
+        </Layout>
     );
 }
