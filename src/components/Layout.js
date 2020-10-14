@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import SEO from "./SEO";
 import Navbar from "./Navbar";
 import Footer from "./Footer";

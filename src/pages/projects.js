@@ -28,7 +28,7 @@ export default function Projects() {
                             </p>
                         </div>
                         <a
-                            href="http://mupinnn.github.io/bloq"
+                            href="https://mupinnn.github.io/bloq"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="nes-btn is-primary mb-4 mr-4"
@@ -36,7 +36,7 @@ export default function Projects() {
                             Preview
                         </a>
                         <a
-                            href="http://github.com/mupinnn/bloq"
+                            href="https://github.com/mupinnn/bloq"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="nes-btn mb-4 mr-4"

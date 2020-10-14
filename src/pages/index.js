@@ -26,7 +26,7 @@ export default function Home() {
                 <p className="mb-3 text-sm md:text-base">
                     In the mid 2019, I found a cool CSS framework called{" "}
                     <a
-                        href="http://https://nostalgic-css.github.io/NES.css/"
+                        href="https://nostalgic-css.github.io/NES.css/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800"
