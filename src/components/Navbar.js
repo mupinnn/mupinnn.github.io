@@ -5,7 +5,6 @@ const Navbar = () => {
     const [nav_open, setNavOpen] = useState(false);
 
     const toggleNav = () => {
-        document.body.classList.toggle("overflow-hidden");
         setNavOpen(!nav_open);
     };
 
@@ -25,16 +24,32 @@ const Navbar = () => {
                 <div id="close-nav" className="lg:hidden" onClick={toggleNav}>
                     <i className="nes-icon close p-0 mx-auto static"></i>
                 </div>
-                <Link to="/" className="nes-btn is-warning">
+                <Link
+                    to="/"
+                    className="nes-btn is-warning"
+                    activeClassName="is-error"
+                >
                     Home
                 </Link>
-                <Link to="/about/" className="nes-btn is-warning">
+                <Link
+                    to="/about/"
+                    className="nes-btn is-warning"
+                    activeClassName="is-error"
+                >
                     About
                 </Link>
-                <Link to="/projects/" className="nes-btn is-warning">
+                <Link
+                    to="/projects/"
+                    className="nes-btn is-warning"
+                    activeClassName="is-error"
+                >
                     Projects
                 </Link>
-                <Link to="/contact/" className="nes-btn is-warning">
+                <Link
+                    to="/contact/"
+                    className="nes-btn is-warning"
+                    activeClassName="is-error"
+                >
                     Contact
                 </Link>
             </div>

@@ -23,7 +23,7 @@ export default function Home() {
                     website. I love simple but eye-catching interface, so "why
                     not make it pixelated like 90's game?".
                 </p>
-                <p class="mb-3 text-sm md:text-base">
+                <p className="mb-3 text-sm md:text-base">
                     In the mid 2019, I found a cool CSS framework called{" "}
                     <a
                         href="http://https://nostalgic-css.github.io/NES.css/"
