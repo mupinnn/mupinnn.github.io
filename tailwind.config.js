@@ -1,8 +1,5 @@
 module.exports = {
-    future: {
-        // removeDeprecatedGapUtilities: true,
-        // purgeLayersByDefault: true,
-    },
+    important: true,
     purge: [
         "./src/**/*.js",
         "./src/**/*.jsx",
