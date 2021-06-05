@@ -9,7 +9,9 @@ export default function Content({ data }) {
   return (
     <Layout>
       <SEO title={frontmatter.title} description={frontmatter.description} />
-      <h1 className="mb-5 text-center text-xl">{frontmatter.title}</h1>
+      <h1 className="mb-5 text-center text-2xl md:text-3xl">
+        {frontmatter.title}
+      </h1>
       <article
         className="prose prose-sm text-gray-800 md:prose"
         dangerouslySetInnerHTML={{ __html: html }}
